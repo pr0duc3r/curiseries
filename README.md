@@ -1,3 +1,30 @@
+# Programas necesarios
+
+- Instalar Git para Windows
+- Instalar Nodejs para Windows
+- instalar yarn 
+
+```
+npm install --global yarn
+```
+
+# Para clonar el repo
+
+- git clone https://gitlab.com/leandrocura/curiseries.git
+- entrar a la carpeta curiseries
+
+```
+cd curiseries
+yarn install
+```
+
+# Abrir proyecto
+
+- Abrilo con VSCode
+
+# 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
