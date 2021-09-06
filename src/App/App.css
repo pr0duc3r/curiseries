@@ -1,5 +1,7 @@
+@import '~antd/dist/antd.css';
+
 .App {
-  text-align: center;
+  text-align: left; 
 }
 
 .App-logo {
@@ -35,4 +37,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
+}
+.logo {
+  float: left;
+  width: 200px;
+  height: 31px;
+  padding: 20px;
+  /* margin: 16px 24px 16px 0; */
+  /* background: rgba(255, 255, 255, 0.3); */
+  /* color: #fff !important; */
+  /* background: #fff; */
+}
+
+.ant-row-rtl .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+#listita > * {
+  margin: 30px 0;
 }
